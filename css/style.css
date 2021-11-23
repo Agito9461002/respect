@@ -1,0 +1,89 @@
+:root {
+	--color1: #66FF66;
+	--color2: #336633;
+}
+
+header, section {
+	padding: 100px 0;
+}
+
+footer {
+	padding: 20px 0;
+}
+
+header, footer {
+	background: var(--color1);
+	background: -moz-linear-gradient(top,  var(--color1) 0%, var(--color2) 100%);
+	background: -webkit-linear-gradient(top,  var(--color1) 0%,var(--color2) 100%);
+	background: linear-gradient(to bottom,  var(--color1) 0%,var(--color2) 100%);
+}
+
+.my_section {
+	padding: 100px 0;
+	background: #fafffa;
+	background: -moz-linear-gradient(top,  #fafffa 0%, #edffed 50%);
+	background: -webkit-linear-gradient(top,  #fafffa 0%,#edffed 50%);
+	background: linear-gradient(to bottom,  #fafffa 0%,#edffed 50%);
+}
+
+.my_icon_anim {
+	background-color: #fff;
+	border: 1px var(--color2);
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	margin: 0px 0px 10px 10px;
+	padding: 10px 10px 10px 12px;
+	transition: all 0.2s ease;
+}
+
+.my_icon_anim:hover {
+	background-color: var(--color1);
+}
+
+.my_btn_style {
+	padding-left: 8px;
+}
+
+.my_margin {
+	margin-bottom: 100px;
+}
+
+.my_margin_padding {
+	padding: 20px 30px;
+}
+
+.my_icon_styles {
+	bottom: 20px;
+	left: 10px;
+}
+
+.my_text_orders {
+	margin-bottom: 30px;
+}
+
+.my_link_styles {
+	text-decoration: none;
+}
+
+.my_test_under_photo {
+	font-size: xx-small;
+	padding: 10px 0;
+}
+
+.my_h2_styles {
+	font-weight: bold;
+	letter-spacing: -2px;
+	font-size: 3rem;
+}
+
+.my_h1_styles {
+	padding-top: 350px;
+}
+
+.my_row_styles {
+	padding-top: 60px;
+}
